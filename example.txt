@@ -1,0 +1,4 @@
+place:~場所~
+apple:~りんご~
+green:~緑~
+blue:~青~

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/index.css">
+    <title>暗記</title>
+</head>
+<body>
+    <div>タイトルを入力</div>
+    <input type="text" id="title">
+
+    <div style="margin-top: 25px;">内容を入力</div>
+    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+    <button onclick="save()">保存</button>
+
+    <input type="file" name="file" accept=".txt" id="set_file">
+
+    <div>
+        <select name="select" id="select">
+            <option value="-1">選択してください</option>
+        </select>
+        <input type="button" value="読み込み" onclick="load()">
+        <input type="button" value="全てのデータを削除" onclick="delete_data()">
+    </div>
+
+    <div id="field">
+    </div>
+    
+</body>
+<script src="js/index.js"></script>
+</html>
